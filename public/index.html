@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KonvaJS</title>
+    <script src="https://unpkg.com/konva@9/konva.min.js"></script>
+    <script src="/js/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <h1>Breaking News Editor</h1>
+
+    <div id="canvas-container">
+        <div id="konva-holder"></div>
+    </div>
+
+    <form id="export-form">
+        <button type="submit">Finish</button>
+    </form>
+
+    <div id="spinner" style="display: none;"></div>
+
+    <p id="message" style="display:none;">
+        ✅ Changes saved. You can now close the browser window and go back to the Telegram bot.
+    </p>
+</body>
+
+</html>
